@@ -186,8 +186,8 @@ Assertions: No failures (15/15 passed)
 
 ### On EDA Playground
 1. Go to [https://www.edaplayground.com](https://www.edaplayground.com)
-2. Paste `alu.sv` in the **Design** pane
-3. Paste `alu_tb.sv` in the **Testbench** pane
+2. Paste `design.sv` in the **Design** pane
+3. Paste `testbench.sv` in the **Testbench** pane
 4. Select **Aldec Riviera-PRO** as the simulator
 5. Add `-sv -uvm` in the **Compile Options** box
 6. Add `+access+r +UVM_TESTNAME=alu_test` in the **Run Options** box
